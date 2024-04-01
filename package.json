@@ -1,0 +1,32 @@
+{
+    "name": "node-http-server",
+    "version": "7.0.1",
+    "description": "hb7-india-api",
+    "main": "src/app.js",
+    "scripts": {
+      "s": "nodemon src/app.js",
+      "watch": "nodemon --watch src --watch libs src/app.js"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "date-differ": "^1.0.0",
+      "dotenv": "^8.1.0",
+      "express": "^4.17.1",
+      "format-utils": "0.0.6",
+      "log-to-file": "^2.0.2",
+      "mysql2": "2.1.0",
+      "mysqldump": "^2.2.1",
+      "number-to-words": "^1.2.3",
+      "number2text": "^1.1.0",
+      "numbered": "^1.1.0",
+      "path": "^0.12.7",
+      "pendel": "^3.0.0",
+      "round-off": "^1.0.0",
+      "sequelize": "^5.10.0",
+      "to-words": "^1.0.3"
+    },
+    "devDependencies": {
+      "nodemon": "1.19.1"
+    },
+    "keywords": []
+  }
